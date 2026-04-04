@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "tertiary-container": "#5c4536",
+                    "surface": "#fff8f3",
+                    "inverse-on-surface": "#feefdb",
+                    "primary-fixed": "#ffd9e1",
+                    "on-background": "#221a0f",
+                    "on-tertiary-fixed": "#29170c",
+                    "background": "#fff8f3",
+                    "inverse-surface": "#372f22",
+                    "secondary-container": "#fea865",
+                    "tertiary-fixed-dim": "#e1c0ad",
+                    "surface-container-highest": "#efe0cd",
+                    "on-tertiary-fixed-variant": "#594234",
+                    "tertiary": "#442f21",
+                    "tertiary-fixed": "#fedcc8",
+                    "on-surface-variant": "#564146",
+                    "on-primary-fixed": "#3f001c",
+                    "on-tertiary-container": "#d3b3a1",
+                    "secondary-fixed-dim": "#ffb782",
+                    "surface-tint": "#a7315f",
+                    "surface-container": "#fbecd9",
+                    "on-error-container": "#93000a",
+                    "outline-variant": "#dcbfc5",
+                    "outline": "#897176",
+                    "surface-container-low": "#fff2e2",
+                    "surface-bright": "#fff8f3",
+                    "surface-dim": "#e6d8c5",
+                    "secondary": "#8f4d11",
+                    "surface-variant": "#efe0cd",
+                    "on-primary": "#ffffff",
+                    "surface-container-high": "#f5e6d3",
+                    "primary-fixed-dim": "#ffb1c6",
+                    "on-secondary-fixed-variant": "#703800",
+                    "error-container": "#ffdad6",
+                    "error": "#ba1a1a",
+                    "primary-container": "#8b1a4a",
+                    "on-surface": "#221a0f",
+                    "on-tertiary": "#ffffff",
+                    "on-primary-fixed-variant": "#871747",
+                    "on-secondary-fixed": "#301400",
+                    "on-secondary-container": "#763b00",
+                    "surface-container-lowest": "#ffffff",
+                    "on-error": "#ffffff",
+                    "on-secondary": "#ffffff",
+                    "on-primary-container": "#ff9cb9",
+                    "secondary-fixed": "#ffd9e5",
+                    "inverse-primary": "#ffb1c6",
+                    "primary": "#6a0033"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Noto Serif"],
+                    "body": ["Plus Jakarta Sans"],
+                    "label": ["Plus Jakarta Sans"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            line-height: 1;
+            text-transform: none;
+            letter-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            direction: ltr;
+        }
+        .serif-italic { font-family: 'Noto Serif'; font-style: italic; }
+        .editorial-caps { font-family: 'Plus Jakarta Sans'; letter-spacing: 0.15em; text-transform: uppercase; }
+        .glass-nav { background: rgba(255, 248, 243, 0.8); backdrop-filter: blur(20px); }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-[#fff8f3]/80 backdrop-blur-md dark:bg-stone-950/80 flex justify-between items-center px-8 py-4 max-w-full mx-auto">
+<div class="flex items-center gap-8">
+<span class="text-2xl font-serif italic text-[#8b1a4a] dark:text-[#dcbfc5]">Matangi</span>
+<div class="hidden md:flex gap-6">
+<a class="text-stone-600 dark:text-stone-400 hover:text-[#8b1a4a] dark:hover:text-[#dcbfc5] transition-colors font-['Noto_Serif'] text-sm tracking-widest uppercase" href="#">Home</a>
+<a class="text-stone-600 dark:text-stone-400 hover:text-[#8b1a4a] dark:hover:text-[#dcbfc5] transition-colors font-['Noto_Serif'] text-sm tracking-widest uppercase" href="#">Collection</a>
+<a class="text-[#8b1a4a] border-b-2 border-[#8b1a4a] pb-1 dark:text-[#dcbfc5] dark:border-[#dcbfc5] font-['Noto_Serif'] text-sm tracking-widest uppercase" href="#">About Us</a>
+<a class="text-stone-600 dark:text-stone-400 hover:text-[#8b1a4a] dark:hover:text-[#dcbfc5] transition-colors font-['Noto_Serif'] text-sm tracking-widest uppercase" href="#">Contact</a>
+</div>
+</div>
+<div class="flex items-center gap-6">
+<div class="relative hidden sm:block">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm">search</span>
+<input class="bg-surface-container/50 border-none rounded-full py-2 pl-10 pr-4 text-xs w-48 focus:ring-1 focus:ring-primary-container outline-none" placeholder="Search heritage..." type="text"/>
+</div>
+<button class="bg-primary-container text-on-primary px-6 py-2 rounded-full font-label text-xs tracking-widest uppercase hover:opacity-80 transition-opacity active:scale-95 duration-150">WhatsApp</button>
+</div>
+</nav>
+<main class="pt-16">
+<!-- Hero: Our Heritage -->
+<section class="relative h-[921px] w-full overflow-hidden flex items-center justify-center">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover" data-alt="Stunning architectural detail of an ancient Indian haveli with intricate sandstone carvings, arched doorways, and soft morning sunlight casting long shadows." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB8-TS9vaNGv5J3NT2cUOEMLIjHoeSAi-eKHYUMO28POyrqkuS1wg-O_BwAckq6dDdSR0XYtyk49ej0WwkAEwAK7rhnt5AO7UUxBMSQIBPBcHt9yLTzzIsImm3AKUSKfG-IcvGkM0hTjZFq2dNM7v2r2m8bdVTQcxQo_R0GEAiGLNvYeGShXW9SZN803bZq2AI0lVIkvzwOko7HFWEdwK1XEf7vHj4oSloeW2AFh-9Vjx-3bkInvAE7Dsrzea7Qj_8D5KtD1Ndb2Bg"/>
+<div class="absolute inset-0 bg-gradient-to-b from-transparent via-surface/20 to-surface"></div>
+</div>
+<div class="relative z-10 text-center px-4 max-w-4xl">
+<span class="editorial-caps text-primary text-sm mb-4 block">Est. 1984</span>
+<h1 class="font-headline text-6xl md:text-8xl text-on-surface leading-tight mb-6">Our Heritage</h1>
+<p class="font-body text-lg md:text-xl text-on-surface-variant max-w-2xl mx-auto font-light leading-relaxed">
+                    A story woven through generations, preserved in every thread of silk and every hand-carved motif.
+                </p>
+</div>
+</section>
+<!-- The Matangi Story (Editorial Layout) -->
+<section class="py-24 px-8 md:px-24 bg-surface flex flex-col md:flex-row gap-16 items-center overflow-hidden">
+<div class="w-full md:w-1/2 space-y-8 relative">
+<div class="absolute -left-12 -top-12 opacity-5 text-on-surface select-none pointer-events-none">
+<span class="material-symbols-outlined text-[200px]">filter_vintage</span>
+</div>
+<h2 class="font-headline text-4xl md:text-5xl text-primary leading-tight">The Matangi Story</h2>
+<div class="space-y-6 font-body text-on-surface-variant leading-loose text-lg">
+<p>Matangi was born from a simple yet profound realization: that the soul of Indian textile art was being lost to the fast-paced machinery of modern commerce. Our journey began in the heart of Chanderi, where the rhythmic clacking of looms tells a story of centuries.</p>
+<p>Our mission is to bridge the gap between ancestral craftsmanship and contemporary silhouettes. We don't just sell sarees; we preserve the tactile poetry of the artisan's hand. Every piece in our collection is a testament to the patient labor of love that defines the "Modern Heirloom."</p>
+</div>
+<div class="pt-8">
+<div class="flex items-center gap-4 group cursor-pointer">
+<div class="h-px w-12 bg-outline-variant group-hover:w-20 transition-all duration-300"></div>
+<span class="editorial-caps text-xs text-primary font-bold">Discover our roots</span>
+</div>
+</div>
+</div>
+<div class="w-full md:w-1/2 relative">
+<div class="aspect-[4/5] rounded-xl overflow-hidden shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-700">
+<img class="w-full h-full object-cover" data-alt="Close-up of a master artisan's hands meticulously working on a hand-loomed silk fabric with golden zari threads in a sunlit workshop." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDnToNIgLFD4Tq3APjyr1S_jCrKdsp80gyvrTAlu5HlREuDfPscbzuEJl49xDDixDs01cu00TZg3va22aZaZCYJ3XngiOFOF9Zf-4dSARiHpqAN0VHeCGyswPKVa_I7bZzQ672QWxXgJVVIsfjV_1S3p43Te09zVFZ0cGeU6kDQq5IZuIurXpG2plyFMJd8jwW2tAJqn7A5FF9SesyLyDAIdFlZSBrbt8ZiSoi-RHXw46cwqN_KXf6fkQXsCzNdJtU_MCUhQEEvE78"/>
+</div>
+<div class="absolute -bottom-8 -left-8 bg-surface-container-lowest p-6 rounded-xl shadow-lg max-w-xs hidden lg:block">
+<p class="font-headline italic text-primary-container text-lg">"We weave not just silk, but the very essence of our culture."</p>
+<span class="editorial-caps text-[10px] mt-4 block text-outline">Master Weaver, Chanderi</span>
+</div>
+</div>
+</section>
+<!-- Handcrafted Elegance (Bento Grid) -->
+<section class="py-24 px-8 md:px-24 bg-surface-container-low">
+<div class="text-center mb-16">
+<span class="editorial-caps text-secondary text-sm mb-2 block">The Process</span>
+<h2 class="font-headline text-4xl md:text-5xl text-on-surface">Handcrafted Elegance</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6 h-auto md:h-[800px]">
+<div class="md:col-span-8 bg-surface-container-lowest rounded-xl p-8 flex flex-col justify-between group overflow-hidden relative">
+<div class="relative z-10">
+<h3 class="font-headline text-3xl mb-4 text-primary">The Chanderi Silk</h3>
+<p class="font-body text-on-surface-variant max-w-md">Lightweight as air, yet possessing a regal sheen. Our silk is sourced directly from ethical farming cooperatives and hand-spun to maintain its natural luster and strength.</p>
+</div>
+<div class="absolute right-0 bottom-0 w-1/2 h-full opacity-20 group-hover:opacity-40 transition-opacity">
+<img class="w-full h-full object-cover" data-alt="Soft ethereal fold of light pink Chanderi silk with delicate golden floral embroidery reflecting natural afternoon light." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBAMD0yY7qzUmy10trg0SS7P-UMFsD16mSxIkmeNRuNfF2SKJucxNOV1xi1kk7KTTedJx98244wmePhS0i3sC1k885FTvfH6Wc3ixAgW2-dRXRa6wVvbbMKEvcaaOQeyTitPshUek673g-5tDhUgr61yhAMk4lY4r16kW705_kxy5NegAM5UgYTDs2NjKWbTFvFnxgPtLrUn0UksJ-IAg6hLVXUmQCk-SK2ELbD11gfUHnA2iefxS2Der15y_zAzVO99BVBf4EYEbU"/>
+</div>
+</div>
+<div class="md:col-span-4 bg-primary-container text-on-primary-container rounded-xl p-8 flex flex-col justify-center items-center text-center">
+<span class="material-symbols-outlined text-5xl mb-6" style="font-variation-settings: 'FILL' 1;">eco</span>
+<h3 class="font-headline text-2xl mb-4 text-on-primary">Pure Materials</h3>
+<p class="font-body text-sm opacity-80">No synthetic blends. No shortcuts. Just pure organic fibers and vegetable dyes that breathe with your skin.</p>
+</div>
+<div class="md:col-span-4 bg-surface-container-highest rounded-xl overflow-hidden relative group">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Artisanal embroidery tool resting on a piece of navy blue fabric with unfinished white silk thread patterns." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDDF9CIWBVUEkOPqffthJs1F_Ardz_RrljtupXP0ikL9W8kcsKCWFnGy3ZM9YlrLc4j-ZOy4y1FrPFEjj4d87brrwMJ-rtQ8fHnUQ8b7iBGqh-x2OL6aRF7nmHCcN_yqrG538aQW4SBuAC5bC12l12AbnUsJRzuceP-z_NrBdiBGOEPY8qmy36RflOc6PR8S-HZ_mNQu29SE25NlK24caYx2UPCUS81M90qv03_0zW3JDnIBtxrZskanqX1hAilpx4XzNGZsiV3emk"/>
+<div class="absolute inset-0 bg-black/30 flex items-end p-8">
+<h3 class="font-headline text-2xl text-white">Needle &amp; Thread</h3>
+</div>
+</div>
+<div class="md:col-span-8 bg-[#efe0cd]/50 rounded-xl p-12 flex flex-col md:flex-row items-center gap-8">
+<div class="w-full md:w-2/3">
+<h3 class="font-headline text-3xl mb-4 text-tertiary">Our Signature Motifs</h3>
+<p class="font-body text-on-tertiary-container">From the 'Asharfi' (gold coin) to the 'Mehendi' vine, each motif is painstakingly hand-embroidered by artisans who have spent decades perfecting the Zardosi and Chikankari traditions.</p>
+</div>
+<div class="w-24 h-24 rounded-full border border-outline-variant flex items-center justify-center p-4">
+<span class="material-symbols-outlined text-4xl text-secondary">auto_awesome</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Call to Action -->
+<section class="py-32 px-8 text-center bg-surface relative overflow-hidden">
+<div class="absolute top-0 left-1/2 -translate-x-1/2 w-px h-24 bg-outline-variant"></div>
+<div class="max-w-2xl mx-auto space-y-8 mt-12">
+<h2 class="font-headline text-4xl md:text-5xl text-on-surface">Experience the Legacy</h2>
+<p class="font-body text-on-surface-variant text-lg">Browse our latest collection and find your own piece of modern heritage.</p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+<button class="bg-primary text-on-primary px-10 py-4 rounded-xl font-label text-sm tracking-widest uppercase shadow-xl hover:opacity-90 transition-all active:scale-95">Explore Collection</button>
+<button class="text-primary font-label text-sm tracking-widest uppercase border-b border-primary pb-1 hover:text-primary-container transition-colors">Our Craft Centers</button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#fbecd9] dark:bg-stone-900 w-full rounded-t-[12px]">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12 px-12 py-16 w-full">
+<div class="space-y-6">
+<span class="font-['Noto_Serif'] text-xl text-[#8b1a4a] dark:text-[#dcbfc5]">Matangi</span>
+<p class="font-['Plus_Jakarta_Sans'] text-xs tracking-tight text-stone-500 dark:text-stone-400 max-w-xs leading-relaxed">
+                    Preserving the soul of handloom traditions through contemporary design. Every thread tells a story of heritage and handcrafted elegance.
+                </p>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-[#8b1a4a] cursor-pointer hover:opacity-70">local_post_office</span>
+<span class="material-symbols-outlined text-[#8b1a4a] cursor-pointer hover:opacity-70">share</span>
+<span class="material-symbols-outlined text-[#8b1a4a] cursor-pointer hover:opacity-70">location_on</span>
+</div>
+</div>
+<div class="space-y-4">
+<h4 class="font-headline text-sm uppercase tracking-widest text-[#8b1a4a]">Heritage Links</h4>
+<ul class="space-y-2 font-['Plus_Jakarta_Sans'] text-xs tracking-tight">
+<li><a class="text-stone-500 dark:text-stone-400 hover:underline decoration-[#c4783a] underline-offset-4" href="#">Shipping Policy</a></li>
+<li><a class="text-stone-500 dark:text-stone-400 hover:underline decoration-[#c4783a] underline-offset-4" href="#">Terms of Service</a></li>
+<li><a class="text-stone-500 dark:text-stone-400 hover:underline decoration-[#c4783a] underline-offset-4" href="#">Privacy</a></li>
+<li><a class="text-stone-500 dark:text-stone-400 hover:underline decoration-[#c4783a] underline-offset-4" href="#">Care Guide</a></li>
+</ul>
+</div>
+<div class="space-y-6">
+<h4 class="font-headline text-sm uppercase tracking-widest text-[#8b1a4a]">Our Atelier</h4>
+<p class="font-['Plus_Jakarta_Sans'] text-xs tracking-tight text-stone-500 dark:text-stone-400">
+                    12, Heritage Lane, Chanderi<br/>
+                    Madhya Pradesh, India<br/>
+                    atelier@matangicollection.com
+                </p>
+<div class="pt-4 border-t border-[#dcbfc5]/20">
+<p class="font-['Plus_Jakarta_Sans'] text-xs tracking-tight text-stone-500">© 2024 Matangi Collection. Handcrafted Heritage.</p>
+</div>
+</div>
+</div>
+</footer>
+<!-- BottomNavBar (Mobile Only) -->
+<nav class="md:hidden fixed bottom-0 left-0 w-full flex justify-around items-center h-16 px-4 pb-safe bg-[#fff8f3] dark:bg-stone-950 z-50 rounded-t-xl border-t border-[#dcbfc5]/15 shadow-[0px_-4px_16px_rgba(44,26,14,0.05)]">
+<a class="flex flex-col items-center justify-center text-stone-400 dark:text-stone-600 active:bg-[#efe0cd] scale-95 transition-transform duration-200" href="#">
+<span class="material-symbols-outlined">storefront</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[10px] font-medium tracking-tighter">Shop</span>
+</a>
+<a class="flex flex-col items-center justify-center text-stone-400 dark:text-stone-600 active:bg-[#efe0cd] scale-95 transition-transform duration-200" href="#">
+<span class="material-symbols-outlined">auto_awesome</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[10px] font-medium tracking-tighter">Curated</span>
+</a>
+<a class="flex flex-col items-center justify-center text-stone-400 dark:text-stone-600 active:bg-[#efe0cd] scale-95 transition-transform duration-200" href="#">
+<span class="material-symbols-outlined">chat</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[10px] font-medium tracking-tighter">Inquiry</span>
+</a>
+<a class="flex flex-col items-center justify-center text-stone-400 dark:text-stone-600 active:bg-[#efe0cd] scale-95 transition-transform duration-200" href="#">
+<span class="material-symbols-outlined">person</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[10px] font-medium tracking-tighter">Profile</span>
+</a>
+</nav>
+</body></html>
