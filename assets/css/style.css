@@ -1,0 +1,56 @@
+/* Matangi Sarees - Global Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --primary: #6a0033;
+    --primary-container: #8b1a4a;
+    --surface: #fff8f3;
+    --on-surface: #221a0f;
+    --secondary: #8f4d11;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: var(--surface);
+    color: var(--on-surface);
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, .font-serif {
+    font-family: 'Noto Serif', serif;
+}
+
+/* Header Consistency */
+nav.fixed {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    font-family: 'Noto Serif', serif;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #564146;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+.nav-link.active {
+    color: var(--primary-container);
+    border-bottom: 2px solid var(--primary-container);
+    padding-bottom: 4px;
+}
+
+/* Page Spacing */
+main, .page-content {
+    padding-top: 80px; /* Match header height */
+}
+
+/* Utility */
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}

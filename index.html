@@ -88,28 +88,42 @@
             gap: 24px;
         }
     </style>
-<script>if (window.innerWidth < 768) { window.location.href = "mobile_index.html"; }</script></head>
+<script src="assets/js/main.js"></script>
+<script>if (window.innerWidth < 768) { window.location.href = "mobile_index.html"; }</script>
+<link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Matangi Collection | Premium Ethnic Wear & Sarees in Lucknow</title>
+    <meta name="description" content="Established in 2014, Matangi Collection has been a cornerstone of Lucknow's ethnic fashion. We specialize in fetching high-quality fabrics and designs directly from wholesale markets, ensuring that our local community receives boutique quality at unmatched prices. Sourced directly from wholesale for unbeatable prices and handcrafted quality.">
+    <meta name="keywords" content="Matangi Collection Lucknow, Saree Shop Jankipuram, Ethnic Wear Lucknow, Wholesale Price Sarees, Established 2014, Women's Clothing Lucknow, Jankipuram Extension">
+    <meta property="og:title" content="Matangi Collection - Handcrafted Heritage" />
+    <meta property="og:description" content="Premium ethnic wear at wholesale prices. Serving Lucknow since 2014." />
+    <meta property="og:type" content="website" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
 <body class="bg-surface text-on-surface selection:bg-primary-container selection:text-on-primary-container">
-<!-- TopNavBar -->
-<nav class="fixed top-0 w-full z-50 bg-[#fff8f3]/80 backdrop-blur-md dark:bg-stone-950/80 flex justify-between items-center px-8 py-4 max-w-full mx-auto">
-<div class="text-2xl font-serif italic text-[#8b1a4a] dark:text-[#dcbfc5]">Matangi</div>
-<div class="hidden md:flex gap-8 font-['Noto_Serif'] text-sm tracking-widest uppercase items-center">
-<a class="text-[#8b1a4a] border-b-2 border-[#8b1a4a] pb-1 dark:text-[#dcbfc5] dark:border-[#dcbfc5]" href="#">Home</a>
-<a class="text-stone-600 dark:text-stone-400 hover:text-[#8b1a4a] dark:hover:text-[#dcbfc5] transition-colors" href="#">Collection</a>
-<a class="text-stone-600 dark:text-stone-400 hover:text-[#8b1a4a] dark:hover:text-[#dcbfc5] transition-colors" href="#">About Us</a>
-<a class="text-stone-600 dark:text-stone-400 hover:text-[#8b1a4a] dark:hover:text-[#dcbfc5] transition-colors" href="#">Contact</a>
-</div>
-<div class="flex items-center gap-4">
-<button class="bg-primary-container text-on-primary px-6 py-2 rounded-full font-label text-xs tracking-widest uppercase hover:opacity-80 transition-opacity active:scale-95 duration-150 flex items-center gap-2">
-<span class="material-symbols-outlined text-sm">chat</span>
-                WhatsApp
-            </button>
-</div>
+<nav class="fixed top-0 w-full z-50 bg-[#fff8f3]/95 backdrop-blur-md flex justify-between items-center px-10 py-6 border-b border-stone-200">
+    <a href="index.html" class="text-2xl font-serif italic text-[#8b1a4a] font-bold">Matangi Collection</a>
+    <div class="hidden md:flex gap-12 items-center">
+        <a class="nav-link nav-link active" href="index.html">Home</a>
+        <a class="nav-link nav-link" href="products.html">Collection</a>
+        <a class="nav-link nav-link" href="about.html">About Us</a>
+        <a class="nav-link nav-link" href="contact.html">Contact</a>
+    </div>
+    <div class="flex items-center gap-4">
+        <button id="whatsapp-nav" class="bg-[#8b1a4a] text-white px-8 py-3 rounded-full text-xs uppercase tracking-widest font-bold flex items-center gap-3 hover:bg-[#6a0033] transition-all">
+            <span class="material-symbols-outlined text-sm">chat</span> WhatsApp
+        </button>
+    </div>
 </nav>
+
+
+<!-- TopNavBar -->
+
 <!-- Hero Section -->
-<section class="relative h-[921px] flex items-center overflow-hidden pt-16">
+<section class="relative h-[921px] flex items-center overflow-hidden pt-20">
 <div class="absolute inset-0 z-0">
-<img class="w-full h-full object-cover" data-alt="Elegant Indian woman in a rich silk saree standing against a sunlit traditional architectural background with soft bokeh" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHG5so-brAvMpWWf6xE_CsaX6XW5Y-5QMojVtMwRm5aK1YX3VSP90f5Oe938vymviqVlK4XTlYeMMKJ8aT2x8BgKUIKh6x06QFyMgg6y2iUK2SpeR4a84PwKYidOXYTy9LnFRTVOOTM3459WYmWZiiXYxoGwTBRLo7AQWVKxgyMiKy-GIyTrgHG7VqAI2dA76J1A6WZE4_dgXfkGlW94047jCb3dv2aAW9baMyiTHZbumuohd1vV6kvUVaOnQafwMW3PQL7ir8PfE"/>
+<img id="hero-image" loading="lazy" class="w-full h-full object-cover transition-all duration-1000 ease-in-out" data-alt="Elegant Indian woman in a rich silk saree standing against a sunlit traditional architectural background with soft bokeh" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHG5so-brAvMpWWf6xE_CsaX6XW5Y-5QMojVtMwRm5aK1YX3VSP90f5Oe938vymviqVlK4XTlYeMMKJ8aT2x8BgKUIKh6x06QFyMgg6y2iUK2SpeR4a84PwKYidOXYTy9LnFRTVOOTM3459WYmWZiiXYxoGwTBRLo7AQWVKxgyMiKy-GIyTrgHG7VqAI2dA76J1A6WZE4_dgXfkGlW94047jCb3dv2aAW9baMyiTHZbumuohd1vV6kvUVaOnQafwMW3PQL7ir8PfE"/>
 <div class="absolute inset-0 bg-gradient-to-r from-surface via-surface/40 to-transparent"></div>
 </div>
 <div class="relative z-10 px-8 md:px-24 max-w-4xl">
@@ -122,7 +136,7 @@
 <button class="bg-[#C4783A] text-white px-8 py-4 rounded-xl font-label tracking-wider uppercase hover:shadow-lg transition-all active:scale-95">
                     Explore Collection
                 </button>
-<button class="border-2 border-primary-container text-primary-container px-8 py-4 rounded-xl font-label tracking-wider uppercase hover:bg-primary-container hover:text-white transition-all active:scale-95">
+<button class="whatsapp-btn border-2 border-primary-container text-primary-container px-8 py-4 rounded-xl font-label tracking-wider uppercase hover:bg-primary-container hover:text-white transition-all active:scale-95">
                     WhatsApp Us
                 </button>
 </div>
@@ -136,12 +150,12 @@
 <h2 class="text-4xl font-serif text-primary-container">Shop by Category</h2>
 <div class="h-1 w-24 bg-secondary mt-4"></div>
 </div>
-<a class="text-primary font-label text-sm uppercase tracking-widest border-b border-primary hover:pb-1 transition-all" href="#">View All Categories</a>
+<a class="text-primary font-label text-sm uppercase tracking-widest border-b border-primary hover:pb-1 transition-all" href="products.html">View All Categories</a>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
 <!-- Category Card 1 -->
 <div class="group relative overflow-hidden rounded-xl aspect-[3/4] cursor-pointer">
-<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Intricate embroidery on a traditional Indian kurti fabric showing fine craftsmanship and rich textures" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYstPEcuo-UihTX7jqDbAIJ4zznm7wR3VsTxrqgJgxJcy7dV0zfj1AfkTtKmrgwihGA4xSMLom8PCLZZa3bYlWl8aRvEi6z5NIptJjHhKFS48-DhmkkyxnFP-VAeoQE-y3HPJf3B2Vr2z6YotVY_dZ4OcsypuPjjX3peLrcp_UcwTzysI69CXECpAmuENy3bxg9rCOPOhhu0_Wf6P_3I3632CcTObLj595Hk5wnogxeImqMVAeal1MlB7VcgRwuCDCIFtsjfdtrc0"/>
+<img loading="lazy" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Intricate embroidery on a traditional Indian kurti fabric showing fine craftsmanship and rich textures" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYstPEcuo-UihTX7jqDbAIJ4zznm7wR3VsTxrqgJgxJcy7dV0zfj1AfkTtKmrgwihGA4xSMLom8PCLZZa3bYlWl8aRvEi6z5NIptJjHhKFS48-DhmkkyxnFP-VAeoQE-y3HPJf3B2Vr2z6YotVY_dZ4OcsypuPjjX3peLrcp_UcwTzysI69CXECpAmuENy3bxg9rCOPOhhu0_Wf6P_3I3632CcTObLj595Hk5wnogxeImqMVAeal1MlB7VcgRwuCDCIFtsjfdtrc0"/>
 <div class="absolute inset-0 bg-gradient-to-t from-primary-container/80 via-transparent to-transparent opacity-60"></div>
 <div class="absolute bottom-0 p-8 w-full text-white">
 <h3 class="text-2xl font-serif mb-1">Kurtis</h3>
@@ -150,7 +164,7 @@
 </div>
 <!-- Category Card 2 -->
 <div class="group relative overflow-hidden rounded-xl aspect-[3/4] cursor-pointer">
-<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Set of vibrant ethnic Indian clothing including dupatta and salwar kameez displayed elegantly" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCjGpOe59vy3KzarGxEUe4Ksd3eJDNtpwpoiT6PVQ76RIfH0wqywGCc2A2mBQfobyMI5I9154dyoCDpAri_0uGzAtZqvHu3aYV065wkhAmEud02izs3iIgXkr-UzFPWWhVwrT0-YDjp86UgdxjTRul0Ih5D_sphG2tG_u-ctLu7uTisLKZgPGJKKd422QImNOpfffvZizECLh0D2Ox8qP6KkWIBYVswTBraXessD8oOIn2ANOiMRlI5eedgcUCvToXIj4AO4NtpoqA"/>
+<img loading="lazy" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Set of vibrant ethnic Indian clothing including dupatta and salwar kameez displayed elegantly" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCjGpOe59vy3KzarGxEUe4Ksd3eJDNtpwpoiT6PVQ76RIfH0wqywGCc2A2mBQfobyMI5I9154dyoCDpAri_0uGzAtZqvHu3aYV065wkhAmEud02izs3iIgXkr-UzFPWWhVwrT0-YDjp86UgdxjTRul0Ih5D_sphG2tG_u-ctLu7uTisLKZgPGJKKd422QImNOpfffvZizECLh0D2Ox8qP6KkWIBYVswTBraXessD8oOIn2ANOiMRlI5eedgcUCvToXIj4AO4NtpoqA"/>
 <div class="absolute inset-0 bg-gradient-to-t from-primary-container/80 via-transparent to-transparent opacity-60"></div>
 <div class="absolute bottom-0 p-8 w-full text-white">
 <h3 class="text-2xl font-serif mb-1">Ethnic Sets</h3>
@@ -159,7 +173,7 @@
 </div>
 <!-- Category Card 3 -->
 <div class="group relative overflow-hidden rounded-xl aspect-[3/4] cursor-pointer">
-<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Breathable cotton daily wear tunic with minimalist block print patterns in soft earthy tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCsZqS_6ChRUFEfuQtacysIpqpHGPPMvAec59GueqaO2jHnr1WRvvgH9PvA6DDasdyZRS5S32gHXffcBumsC9sPLxurZxO0XTOf-lKvd-TTBwC8CHno-5xUU3VHENmWD05NwwblwO7swdJfZNfbdJr4Om3pc4IdUtkghOavzwwxrLMtUUrmI8SucyJJIoOXV8zawT2GOH5XRrtcSUarSz3E4oUyAXUM5kR3QB9FLQlIpk3dYD_9Xt3aZMPgeTILzPGCtQmu3jvFqaU"/>
+<img loading="lazy" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Breathable cotton daily wear tunic with minimalist block print patterns in soft earthy tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCsZqS_6ChRUFEfuQtacysIpqpHGPPMvAec59GueqaO2jHnr1WRvvgH9PvA6DDasdyZRS5S32gHXffcBumsC9sPLxurZxO0XTOf-lKvd-TTBwC8CHno-5xUU3VHENmWD05NwwblwO7swdJfZNfbdJr4Om3pc4IdUtkghOavzwwxrLMtUUrmI8SucyJJIoOXV8zawT2GOH5XRrtcSUarSz3E4oUyAXUM5kR3QB9FLQlIpk3dYD_9Xt3aZMPgeTILzPGCtQmu3jvFqaU"/>
 <div class="absolute inset-0 bg-gradient-to-t from-primary-container/80 via-transparent to-transparent opacity-60"></div>
 <div class="absolute bottom-0 p-8 w-full text-white">
 <h3 class="text-2xl font-serif mb-1">Daily Wear</h3>
@@ -168,7 +182,7 @@
 </div>
 <!-- Category Card 4 -->
 <div class="group relative overflow-hidden rounded-xl aspect-[3/4] cursor-pointer">
-<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Opulent festive Indian outfit with gold zari work and silk fabric glowing under warm lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAlI4OD-GyIthr-OWh0DELZ7auDumgzv-PMWQDb1-02QxixYtZzBFK7KCVy5mMloBDGKM0PvLOF6LupueeRGnuslW8K_Vwao8FOwN2jScF_Lkj2-hKn-bGgZJ-W3kRjO7jNYSw5bd4ShIOmbL3JAXzVcIt3KCrqDQtdObvDyNN7iiBACHVlDcCGkf4a9WPv6INWf3WkRIRn0LDHdHoAkdoudg5M1Oqk1EkdyMkPQWtY0NBszkOb6_9-1QzDSv-o0bD-aK8fWV9iLUw"/>
+<img loading="lazy" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Opulent festive Indian outfit with gold zari work and silk fabric glowing under warm lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAlI4OD-GyIthr-OWh0DELZ7auDumgzv-PMWQDb1-02QxixYtZzBFK7KCVy5mMloBDGKM0PvLOF6LupueeRGnuslW8K_Vwao8FOwN2jScF_Lkj2-hKn-bGgZJ-W3kRjO7jNYSw5bd4ShIOmbL3JAXzVcIt3KCrqDQtdObvDyNN7iiBACHVlDcCGkf4a9WPv6INWf3WkRIRn0LDHdHoAkdoudg5M1Oqk1EkdyMkPQWtY0NBszkOb6_9-1QzDSv-o0bD-aK8fWV9iLUw"/>
 <div class="absolute inset-0 bg-gradient-to-t from-primary-container/80 via-transparent to-transparent opacity-60"></div>
 <div class="absolute bottom-0 p-8 w-full text-white">
 <h3 class="text-2xl font-serif mb-1">Festive Wear</h3>
@@ -183,11 +197,11 @@
 <div class="max-w-7xl mx-auto">
 <h2 class="text-4xl font-serif text-on-surface mb-4 text-center">Featured Picks</h2>
 <p class="text-center text-on-surface-variant font-body mb-16">Selected favorites from our artisans to your wardrobe.</p>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-x-8 gap-y-16">
+<div id="featured-grid" class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-24">
 <!-- Product 1 -->
 <div class="group">
 <div class="relative rounded-xl overflow-hidden mb-6 aspect-[4/5] bg-surface">
-<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Handcrafted ivory silk kurti with delicate gold embroidery and floral motifs" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCRelbra8VWTi9OCxW_54baqtheGVZOgxN10upttPWRPj3JeZDZCUdJYraBJkC18vKno7cDJFcRcyuwfIKQjq1iSGkCeFyVH0T3z9r6KMHfv7QbpblHyYuyQdUbNl2RS0dY6AoD6WiZau7XhpmE14qD3Fw-y3gRuemWkOZWr5bDI48_sqVIwtoNfTATdDNUxd6JHzcL94yjiNxo24eR1Y0Ib_L8EFEjr9NwUTomd_FG3Xd2FanyLKhaTEx1ezePhsxtA6TwXuFvEik"/>
+<img loading="lazy" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Handcrafted ivory silk kurti with delicate gold embroidery and floral motifs" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCRelbra8VWTi9OCxW_54baqtheGVZOgxN10upttPWRPj3JeZDZCUdJYraBJkC18vKno7cDJFcRcyuwfIKQjq1iSGkCeFyVH0T3z9r6KMHfv7QbpblHyYuyQdUbNl2RS0dY6AoD6WiZau7XhpmE14qD3Fw-y3gRuemWkOZWr5bDI48_sqVIwtoNfTATdDNUxd6JHzcL94yjiNxo24eR1Y0Ib_L8EFEjr9NwUTomd_FG3Xd2FanyLKhaTEx1ezePhsxtA6TwXuFvEik"/>
 <div class="absolute top-4 left-4 bg-secondary-container text-on-secondary-container px-3 py-1 rounded-full text-[10px] font-label uppercase tracking-widest">New Arrival</div>
 </div>
 <div class="space-y-2">
@@ -195,7 +209,7 @@
 <p class="text-sm text-on-surface-variant font-body">Pure Chanderi Silk | S, M, L, XL</p>
 <div class="flex justify-between items-center pt-2">
 <span class="text-[#C4783A] font-bold text-lg">₹4,250</span>
-<a class="flex items-center gap-1 text-primary-container font-label text-xs uppercase tracking-widest group-hover:underline" href="#">
+<a class="flex items-center gap-1 text-primary-container font-label text-xs uppercase tracking-widest group-hover:underline" href="products.html">
 <span class="material-symbols-outlined text-base">chat</span> Inquiry
                             </a>
 </div>
@@ -204,14 +218,14 @@
 <!-- Product 2 -->
 <div class="group">
 <div class="relative rounded-xl overflow-hidden mb-6 aspect-[4/5] bg-surface">
-<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Deep maroon cotton ethnic suit with intricate block prints and matching dupatta" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDHEV4N3uucKCXPjQOsVArsBnHv5WvRk1CP4tHQDR4o2YI8ReXM-ACCbUonXzJiQ5G6ouAoWWSPe_mGqIatvmMdtG4F3Jsdr8Vl0PmquQ5k_VELhMB_iGsFJXL-uFEU4P1Z3Y3w7qilzcdcJVEGpS3h3dzi9gPcr-LxaQfS7vBkL1Z7dIRqu1AK-OTOhO_LLsmOKn8ni_lfmJrqMlReATjiC-Onqj5Er-sODLi1SOMFFKyspC7MYzYLXP5AxE39F2QxQCr4bBWQ4aU"/>
+<img loading="lazy" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Deep maroon cotton ethnic suit with intricate block prints and matching dupatta" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDHEV4N3uucKCXPjQOsVArsBnHv5WvRk1CP4tHQDR4o2YI8ReXM-ACCbUonXzJiQ5G6ouAoWWSPe_mGqIatvmMdtG4F3Jsdr8Vl0PmquQ5k_VELhMB_iGsFJXL-uFEU4P1Z3Y3w7qilzcdcJVEGpS3h3dzi9gPcr-LxaQfS7vBkL1Z7dIRqu1AK-OTOhO_LLsmOKn8ni_lfmJrqMlReATjiC-Onqj5Er-sODLi1SOMFFKyspC7MYzYLXP5AxE39F2QxQCr4bBWQ4aU"/>
 </div>
 <div class="space-y-2">
 <h3 class="font-serif text-xl text-on-surface">Crimson Block Print</h3>
 <p class="text-sm text-on-surface-variant font-body">Mulmul Cotton | M, L, XXL</p>
 <div class="flex justify-between items-center pt-2">
 <span class="text-[#C4783A] font-bold text-lg">₹2,800</span>
-<a class="flex items-center gap-1 text-primary-container font-label text-xs uppercase tracking-widest group-hover:underline" href="#">
+<a class="flex items-center gap-1 text-primary-container font-label text-xs uppercase tracking-widest group-hover:underline" href="products.html">
 <span class="material-symbols-outlined text-base">chat</span> Inquiry
                             </a>
 </div>
@@ -220,14 +234,14 @@
 <!-- Product 3 -->
 <div class="group">
 <div class="relative rounded-xl overflow-hidden mb-6 aspect-[4/5] bg-surface">
-<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Turquoise blue festive anarkali with shimmering gota patti borders and elegant flare" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBFnSg2JCg7Yjh70rfNtBCwcaT3_1346DCDlItz3QNO0WWGkaXOyGGYufpJn-NpF0YSX7hRljCiSs2uFKSc6H9bKeI8m9ObXPRHmaOsigIckvtO_Bi4WcVl_9tcJmtDQ79qX_D6ig5FDqgfoQC1NKqI73L_Rx_6rvL1XCDMmmRcakxxw2pFhLWpFM7-xqIJglXxJGGGYxCTN3FdDMPaNxBmeamJN6fOYPYEQjxm08pOJMCK20Z3nNq-fRE2dPibow-0eF1R4kAsRa8"/>
+<img loading="lazy" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Turquoise blue festive anarkali with shimmering gota patti borders and elegant flare" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBFnSg2JCg7Yjh70rfNtBCwcaT3_1346DCDlItz3QNO0WWGkaXOyGGYufpJn-NpF0YSX7hRljCiSs2uFKSc6H9bKeI8m9ObXPRHmaOsigIckvtO_Bi4WcVl_9tcJmtDQ79qX_D6ig5FDqgfoQC1NKqI73L_Rx_6rvL1XCDMmmRcakxxw2pFhLWpFM7-xqIJglXxJGGGYxCTN3FdDMPaNxBmeamJN6fOYPYEQjxm08pOJMCK20Z3nNq-fRE2dPibow-0eF1R4kAsRa8"/>
 </div>
 <div class="space-y-2">
 <h3 class="font-serif text-xl text-on-surface">Azure Gota Patti</h3>
 <p class="text-sm text-on-surface-variant font-body">Georgette | S, M, L</p>
 <div class="flex justify-between items-center pt-2">
 <span class="text-[#C4783A] font-bold text-lg">₹5,999</span>
-<a class="flex items-center gap-1 text-primary-container font-label text-xs uppercase tracking-widest group-hover:underline" href="#">
+<a class="flex items-center gap-1 text-primary-container font-label text-xs uppercase tracking-widest group-hover:underline" href="products.html">
 <span class="material-symbols-outlined text-base">chat</span> Inquiry
                             </a>
 </div>
@@ -264,27 +278,46 @@
 </div>
 </section>
 <!-- Testimonials -->
-<section class="py-24 px-8 bg-surface-container">
-<div class="max-w-7xl mx-auto">
-<h2 class="text-4xl font-serif text-center mb-16">What Our Customers Say</h2>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-<div class="bg-surface-container-lowest p-10 rounded-xl shadow-sm italic">
-<span class="material-symbols-outlined text-primary mb-6 scale-150">format_quote</span>
-<p class="text-on-surface font-body mb-6 leading-relaxed">"The fabric quality of the ethnic set I ordered exceeded my expectations. It's so soft and the colors are even more vibrant than in the photos!"</p>
-<div class="not-italic font-label text-xs tracking-widest uppercase text-primary">— Ananya R., Mumbai</div>
-</div>
-<div class="bg-surface-container-lowest p-10 rounded-xl shadow-sm italic">
-<span class="material-symbols-outlined text-primary mb-6 scale-150">format_quote</span>
-<p class="text-on-surface font-body mb-6 leading-relaxed">"I wore the Azure Gota Patti for a wedding and received so many compliments. Perfect fit and very comfortable for a long evening."</p>
-<div class="not-italic font-label text-xs tracking-widest uppercase text-primary">— Priya S., Delhi</div>
-</div>
-<div class="bg-surface-container-lowest p-10 rounded-xl shadow-sm italic">
-<span class="material-symbols-outlined text-primary mb-6 scale-150">format_quote</span>
-<p class="text-on-surface font-body mb-6 leading-relaxed">"Excellent customer service on WhatsApp. They helped me pick the right size and the delivery was prompt. Highly recommend Matangi!"</p>
-<div class="not-italic font-label text-xs tracking-widest uppercase text-primary">— Meera K., Bangalore</div>
-</div>
-</div>
-</div>
+<section class="py-24 bg-surface-container-high">
+    <div class="max-w-7xl mx-auto px-8 text-center">
+        <h2 class="text-4xl font-serif text-[#6a0033] mb-4">Voice of Our Customers</h2>
+        <p class="text-stone-500 mb-16 font-body">Directly from our Google Maps community</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-left">
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-stone-100">
+                <div class="flex text-yellow-500 mb-4 items-center">
+                    <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                </div>
+                <p class="text-stone-600 italic mb-6 font-body">"Excellent collection of sarees and suits available at reasonable prices. A must visit shop."</p>
+                <div class="font-bold text-[#8b1a4a]">— Upendra Srivastava</div>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-stone-100">
+                <div class="flex text-yellow-500 mb-4 items-center">
+                    <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                </div>
+                <p class="text-stone-600 italic mb-6 font-body">"Highly recommend and very elegant and beautiful collections. Must visit!!!"</p>
+                <div class="font-bold text-[#8b1a4a]">— Aditi Mishra</div>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-stone-100">
+                <div class="flex text-yellow-500 mb-4 items-center">
+                    <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                </div>
+                <p class="text-stone-600 italic mb-6 font-body">"Matangi has excellent Women's Clothing Collections. Better than factory outlets, reasonably decent price."</p>
+                <div class="font-bold text-[#8b1a4a]">— Sakshi Singh</div>
+            </div>
+        </div>
+    </div>
 </section>
 <!-- WhatsApp CTA Strip -->
 <section class="bg-[#4A7C59] py-10 px-8 text-white">
@@ -296,7 +329,7 @@
 <p class="text-white/80 font-body text-sm">Chat with our personal shoppers on WhatsApp now.</p>
 </div>
 </div>
-<button class="bg-white text-[#4A7C59] px-10 py-3 rounded-full font-label tracking-widest uppercase hover:bg-opacity-90 transition-all flex items-center gap-3">
+<button class="whatsapp-btn bg-white text-[#4A7C59] px-10 py-3 rounded-full font-label tracking-widest uppercase hover:bg-opacity-90 transition-all flex items-center gap-3">
 <span class="material-symbols-outlined">chat</span>
                 Chat with Us
             </button>
@@ -306,13 +339,13 @@
 <footer class="bg-stone-950 text-stone-300 py-20 px-8">
 <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
 <div class="space-y-6">
-<div class="font-serif text-3xl text-white italic">Matangi</div>
+<div class="font-serif text-3xl text-white italic">Matangi Collection</div>
 <p class="font-body text-sm leading-relaxed opacity-70">Handcrafted with love in the heart of India. We celebrate the spirit of the modern Indian woman who stays rooted in her heritage.</p>
 <div class="flex gap-4">
-<a class="w-10 h-10 border border-white/20 rounded-full flex items-center justify-center hover:bg-white/10 transition-colors" href="#">
+<a class="w-10 h-10 border border-white/20 rounded-full flex items-center justify-center hover:bg-white/10 transition-colors" href="products.html">
 <span class="material-symbols-outlined text-lg">public</span>
 </a>
-<a class="w-10 h-10 border border-white/20 rounded-full flex items-center justify-center hover:bg-white/10 transition-colors" href="#">
+<a class="w-10 h-10 border border-white/20 rounded-full flex items-center justify-center hover:bg-white/10 transition-colors" href="products.html">
 <span class="material-symbols-outlined text-lg">mail</span>
 </a>
 </div>
@@ -320,27 +353,30 @@
 <div>
 <h4 class="text-white font-serif text-lg mb-8">Collection</h4>
 <ul class="space-y-4 text-sm font-label uppercase tracking-widest">
-<li><a class="hover:text-white transition-colors" href="#">Kurtis</a></li>
-<li><a class="hover:text-white transition-colors" href="#">Ethnic Sets</a></li>
-<li><a class="hover:text-white transition-colors" href="#">Daily Wear</a></li>
-<li><a class="hover:text-white transition-colors" href="#">Festive Wear</a></li>
+<li><a class="hover:text-white transition-colors" href="products.html">Kurtis</a></li>
+<li><a class="hover:text-white transition-colors" href="products.html">Ethnic Sets</a></li>
+<li><a class="hover:text-white transition-colors" href="products.html">Daily Wear</a></li>
+<li><a class="hover:text-white transition-colors" href="products.html">Festive Wear</a></li>
 </ul>
 </div>
 <div>
 <h4 class="text-white font-serif text-lg mb-8">Customer Care</h4>
 <ul class="space-y-4 text-sm font-label uppercase tracking-widest">
-<li><a class="hover:text-white transition-colors" href="#">Shipping Policy</a></li>
-<li><a class="hover:text-white transition-colors" href="#">Terms of Service</a></li>
-<li><a class="hover:text-white transition-colors" href="#">Privacy</a></li>
-<li><a class="hover:text-white transition-colors" href="#">Care Guide</a></li>
+<li><a class="hover:text-white transition-colors" href="products.html">Shipping Policy</a></li>
+<li><a class="hover:text-white transition-colors" href="products.html">Terms of Service</a></li>
+<li><a class="hover:text-white transition-colors" href="products.html">Privacy</a></li>
+<li><a class="hover:text-white transition-colors" href="products.html">Care Guide</a></li>
 </ul>
 </div>
 <div>
 <h4 class="text-white font-serif text-lg mb-8">Store Info</h4>
 <div class="space-y-4 text-sm leading-relaxed opacity-70 font-body">
-<p class="flex gap-3"><span class="material-symbols-outlined text-primary-container">location_on</span> 123, Heritage Lane, Jaipur, Rajasthan - 302001</p>
-<p class="flex gap-3"><span class="material-symbols-outlined text-primary-container">phone</span> +91 98765 43210</p>
-<p class="flex gap-3"><span class="material-symbols-outlined text-primary-container">schedule</span> Mon - Sat: 10AM - 7PM</p>
+<p class="flex gap-3"><span class="material-symbols-outlined text-primary-container">location_on</span> Hira Tower 3, Sector 3, Jankipuram Extension,<br/>Lucknow, Uttar Pradesh 226021</p>
+<p class="flex gap-3"><span class="material-symbols-outlined text-primary-container">phone</span> 079857 55173</p>
+<p class="flex gap-3"><span class="material-symbols-outlined text-primary-container">schedule</span> Mon - Sun: 11:00 AM - 9:00 PM</p>
+<div class="w-full h-32 rounded overflow-hidden mt-4">
+    <iframe src="https://maps.google.com/maps?q=Matangi%20Sarees,%20hira%20tower%203,%20Sector%203,%20Jankipuram%20Extension,%20Lucknow,%20Uttar%20Pradesh%20226021&t=&z=15&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
 </div>
 </div>
 </div>
@@ -350,22 +386,9 @@
 </div>
 </footer>
 <!-- BottomNavBar (Mobile Only) -->
-<div class="md:hidden fixed bottom-0 left-0 w-full flex justify-around items-center h-16 px-4 pb-safe bg-[#fff8f3] dark:bg-stone-950 z-50 border-t border-[#dcbfc5]/15 shadow-[0px_-4px_16px_rgba(44,26,14,0.05)] rounded-t-xl">
-<a class="flex flex-col items-center justify-center bg-[#fbecd9] text-[#8b1a4a] dark:bg-[#8b1a4a]/20 dark:text-[#dcbfc5] rounded-xl px-4 py-1" href="#">
-<span class="material-symbols-outlined">storefront</span>
-<span class="font-['Plus_Jakarta_Sans'] text-[10px] font-medium tracking-tighter">Shop</span>
-</a>
-<a class="flex flex-col items-center justify-center text-stone-400 dark:text-stone-600" href="#">
-<span class="material-symbols-outlined">auto_awesome</span>
-<span class="font-['Plus_Jakarta_Sans'] text-[10px] font-medium tracking-tighter">Curated</span>
-</a>
-<a class="flex flex-col items-center justify-center text-stone-400 dark:text-stone-600" href="#">
-<span class="material-symbols-outlined">chat</span>
-<span class="font-['Plus_Jakarta_Sans'] text-[10px] font-medium tracking-tighter">Inquiry</span>
-</a>
-<a class="flex flex-col items-center justify-center text-stone-400 dark:text-stone-600" href="#">
-<span class="material-symbols-outlined">person</span>
-<span class="font-['Plus_Jakarta_Sans'] text-[10px] font-medium tracking-tighter">Profile</span>
-</a>
-</div>
+
+
+
+
+
 </body></html>

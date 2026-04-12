@@ -1,0 +1,25 @@
+{
+  "name": "matangi-collection",
+  "version": "1.0.0",
+  "description": "Static site for Matangi Collection",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishaan/matangi-collection.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ishaan/matangi-collection/issues"
+  },
+  "homepage": "https://github.com/ishaan/matangi-collection#readme",
+  "devDependencies": {
+    "vite": "^8.0.8"
+  }
+}
