@@ -1,0 +1,21 @@
+{
+  "name": "Ishaan Jha",
+  "education": [
+    {
+      "institution": "IIT Madras",
+      "degree": "B.S. in Data Science"
+    },
+    {
+      "institution": "IIM Bangalore",
+      "degree": "BBA in Digital Business"
+    }
+  ],
+  "tagline": "I construct resilient logic for chaotic markets",
+  "location": "Lucknow, India",
+  "focus": [
+    "Digital Strategy",
+    "Entrepreneurial Finance",
+    "Consumer Behavior"
+  ],
+  "hobbies": ["Content", "Sports", "Gardening"]
+}
