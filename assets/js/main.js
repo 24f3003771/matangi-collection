@@ -3,7 +3,7 @@
  * Established 2014 | Lucknow
  */
 
-const WHATSAPP_NUMBER = "917985755173";
+const WHATSAPP_NUMBER = "919795353474";
 const DEFAULT_MESSAGE = "Hi! I found Matangi Collection online and want to inquire about your products.";
 
 // Helper: Get WhatsApp URL
@@ -177,18 +177,22 @@ function initHeroSlider() {
 }
 
 // DOM Init
-document.addEventListener("DOMContentLoaded", () => {
+const initApp = () => {
     initWhatsApp();
     initFilters();
     initNewsletter();
     loadProducts();
     initHeroSlider();
-});
+};
+if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initApp);
+} else {
+    initApp();
+}
 
 // Animation CSS Addition
 const style = document.createElement('style');
 style.innerHTML = `
   @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
-  .active { background-color: var(--primary) !important; color: white !important; }
 `;
 document.head.appendChild(style);

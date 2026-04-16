@@ -8,16 +8,11 @@ const __dirname = dirname(__filename);
 
 export default defineConfig({
   build: {
-export default defineConfig({
-  build: {
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
         products: resolve(__dirname, 'products.html'),
       },
     },
-  },
-});
-
   },
 });

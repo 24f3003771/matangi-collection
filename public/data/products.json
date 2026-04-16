@@ -8,7 +8,7 @@
       "price_range": "₹4,200",
       "sizes": ["S", "M", "L", "XL"],
       "fabric": "Silk Blend",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCgMOcsZRp37Eeq5exXynbMsq8XdI31kQ5zpmyrcgE5Xz_UjLBpQzVE7e_Jwfo5Ntu2YuJrGFBDhm4iKvs8CNCJ85TJedtpaDnqVAM9zXD8RXxldTtKge07kU8_oLomp_dBzWLi2VXOf3NIb__ck12Ks-4_m4zTR3vxOTRSS5mywWmt39YH8X7jnqYvfCRIBo9ffXPLNvVaQJm0H1cD0F0VtF4ub0ulyZxd7FOHrg2tS_fyvSLwmLOXOzR14GpArDIDUt7lfZuZnVI",
+      "image": "/assets/images/saree_1.png",
       "featured": true
     },
     {
@@ -19,7 +19,7 @@
       "price_range": "₹1,850",
       "sizes": ["M", "L", "XXL"],
       "fabric": "Cotton",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuA4N4nGTg2KTYjNhwBJ4AKE2sbvuBHnsO-4rJm6wWlsgrulMDFzIaa7Mo-_8JGWHppKGi_-KcmmjpkCX8_hSs_tibREANsFcoolTrio3nDSBhrL0JLATNTPvl1-3maWyUtwmbT0Dy8nz50ckGGCbiRR7CDDEQVDqDehpktLSn4NbltHWlixWzYVyt6REo64PewYRe6QHuWRtpIdHYWcf9Jznkzys2NU0MavazDqoUIujDYDDhNPgD8lDcpR9V-RhP1u7cdOEYWND5M",
+      "image": "/assets/images/saree_1.png",
       "featured": true
     },
     {
@@ -30,7 +30,7 @@
       "price_range": "₹12,400",
       "sizes": ["S", "M", "L"],
       "fabric": "Silk",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAHMv5kzRJZJp61XyEtoaY0TXspuK5xAGLUNgrUFqEL7OzEMP6qZXdDEyFWiswHV4sfXB1J_Isw2bspJIS5lgAzh4PMOM9O6BtnmElD-0h46_8hw6cbQsmVjdwgtCGTwoQzPNR7e3UH0NnDdjdG8wvNm1Za_QuuMtWabliLBVS8cKxlCTe_7L5B_7uovkaEryYJuKxdGb_dxn7CXCKs5lJelDiS2DU12cAGkSpCjz3K_PV2huDMP8CYpp7BXbxqPe7Vrcn9jZrLLUM",
+      "image": "/assets/images/saree_1.png",
       "featured": true
     },
     {
@@ -41,7 +41,7 @@
       "price_range": "₹2,250",
       "sizes": ["L", "XL", "XXL"],
       "fabric": "Linen Cotton",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBewjZGiDxpL4YZjR-sKZzxB_FSxsLxAUf70qPdj0lZL81miIOJMdMntGhq2Cy5F_dQOiCPt9mZ-RpG38CvV7Afx-R36GZBbHB6Oo_tXxVgMVgDdBMydBwDqws74K3LnFHE4e0IBHkg6cBJf654eO0h8FbtcNXt3AxMGu8WVctkRq7gqh8eSsH1MGZabCjUWrOUxXS1K2P55joz4SEh7uy7nlhielyWuKZPLJyxZztmNluxIAmk2-FsoX2OMMS3jHKtNmEP9S6l-QI",
+      "image": "/assets/images/saree_1.png",
       "featured": false
     },
     {
@@ -52,7 +52,7 @@
       "price_range": "₹8,900",
       "sizes": ["Free Size"],
       "fabric": "Kanjivaram Silk",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCw9HUSRCqEUXuxlCFUlH8LG4k9jTBAY7JbXSo3Ik1RK8lcYpcKVgPQykWkHALABZimthGrME--ARYh8CqKAG4LSnCQha-Hl6p8q5xWB8bFhNcNGyUt27MBHW_Hq6jV2yd2CJEHaMRpaGA9jjyGU6bmNUZq0vkRyv_6XuB1NBNHrRlJ1rwFWW5VCE20FslIEoJvLBsaFYyEKLbxW3Dyk7uk3pNd88RatSbIzJ03Yumdx-9O3mDOnYSxedghvaZKyJIBMzVY_q2SQ_M",
+      "image": "/assets/images/saree_1.png",
       "featured": false
     },
     {
@@ -63,7 +63,7 @@
       "price_range": "₹1,600",
       "sizes": ["S", "M", "L", "XL"],
       "fabric": "Cotton",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBBb1UGiaiNy7Yt__JiYmCVe5TPk7sKqYa1F__aJoMtlYyXgl2gmvqGyWQ-IP-jgyTJBRKeh9OB2cr745wAarzKqe2dhu7QDfZ3yQdGWvZUNs--maLKezLuwaiVQNdbTuvBGE46VJVbqzWyIWC_c8Ujnm9-93R0m1SQNM1a06X5beM7KQ1Z1HM6MiQmO5A-UzXOXOFzBapZuZjPYBX6ajtnIgazhoT1n0_ZcMb7pqvT-1mhZQSvpzjstq5_5-ycB4Kh9-SvfxaUv8A",
+      "image": "/assets/images/saree_1.png",
       "featured": false
     },
     {
@@ -74,7 +74,7 @@
       "price_range": "₹15,000",
       "sizes": ["Free Size"],
       "fabric": "Banarasi Silk",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAlI4OD-GyIthr-OWh0DELZ7auDumgzv-PMWQDb1-02QxixYtZzBFK7KCVy5mMloBDGKM0PvLOF6LupueeRGnuslW8K_Vwao8FOwN2jScF_Lkj2-hKn-bGgZJ-W3kRjO7jNYSw5bd4ShIOmbL3JAXzVcIt3KCrqDQtdObvDyNN7iiBACHVlDcCGkf4a9WPv6INWf3WkRIRn0LDHdHoAkdoudg5M1Oqk1EkdyMkPQWtY0NBszkOb6_9-1QzDSv-o0bD-aK8fWV9iLUw",
+      "image": "/assets/images/saree_1.png",
       "featured": true
     },
     {
@@ -85,7 +85,7 @@
       "price_range": "₹5,100",
       "sizes": ["S", "M", "L"],
       "fabric": "Chanderi Silk",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCXnlWj4qDYmh9mfXwWH6JNPteMlCVwWypyp85lyb3WXAykifLiAt_s_ZCB4_lBb_VJ83gtlukK_97dVODrxfnkY7Q-CYANt0HQkBTtSZfRTbjmfvzeXptVtd_iO09CKVTZ1hxU13rRFp5URMcGIQhMrI0iwFKy_TBTh4Rfumngt1uY4keST2qG-Ea8qRvXUjqCZjIHw338Nkvug4dKVTcgY_OmeMH9DHx1rkZuQNjBfOf_uIaAlWIm-TJ8tj407c4EgqpFOJC45WQ",
+      "image": "/assets/images/saree_1.png",
       "featured": false
     },
     {
@@ -96,7 +96,7 @@
       "price_range": "₹3,900",
       "sizes": ["M", "L", "XL"],
       "fabric": "Velvet",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuA32oUc3nyPGPfrYWqV4FLvhOWFgn3hwsCwwm3b6CXxWsTSxmlJimY4ggaOQvxsYKTchuXKfJosKIOK26bUN45cJle9Le0Yka61oHA-f5z-4QoHZ7ey91sdPrlTEgL-pJWyoe-9KKyv-Fgm0nNDNyNcxKRNHXKubN-YDAW32N7R6Ro9Jnuxtpe6Nq6e-LYmKvDIBhzfmC9pb4tzC4E7--qwOzO4FIRfbr9i9etM2UMJluHUQDSE8g3naiNSrdw7aLVGDSpJZkzh4r4",
+      "image": "/assets/images/saree_1.png",
       "featured": false
     },
     {
@@ -107,8 +107,9 @@
       "price_range": "₹6,500",
       "sizes": ["S", "M", "L", "XL", "XXL"],
       "fabric": "Georgette",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCGF-1VxAQv5Slvlw9bLrvbpCwCsckaxFB_xmgp4_i4_HD-tRB03Jt4mPb5f5mOS4MJpRK45bocOyPBi9g_m-ODlySO1SL6EAki-EkEZjDCS_ruW-driSCvxzgtabiM2cLwuWIHtWwAoCVoM8Wwi8ZdeaCqKAccjSGTY49Tq624xtiB1QDVjWtJuhYcbrZk9bxL18_i4nEMpP3Sy3hWOc186pLdAp8w-Ciexh4znA2o7ATEqIws558Wfch_JbWlfdQvZS6i17UCgOM",
+      "image": "/assets/images/saree_1.png",
       "featured": true
     }
   ]
 }
+
